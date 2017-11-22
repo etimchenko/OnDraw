@@ -31,8 +31,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis />
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -78,6 +80,7 @@
     <AndroidResource Include="Resources\values\strings.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Controls\" />
     <Folder Include="Resources\drawable\" />
     <Folder Include="Resources\mipmap-hdpi\" />
     <Folder Include="Resources\mipmap-mdpi\" />
@@ -86,9 +89,9 @@
     <Folder Include="Resources\mipmap-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OnDraw.Core\OnDraw.Core.csproj">
-      <Project>{ad79969f-5b0e-4712-aeed-bc3361657f3b}</Project>
-      <Name>OnDraw.Core</Name>
+    <ProjectReference Include="..\OnDraw.Droid.Editor\OnDraw.Droid.Editor.csproj">
+      <Project>{b7c66902-05a6-439e-aed2-9bdb64343087}</Project>
+      <Name>OnDraw.Droid.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
