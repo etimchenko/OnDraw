@@ -20,9 +20,9 @@ Components/
 
 /Components/*
 /packages/*
-/OnDraw.Droid/Components/
-/OnDraw.Droid/packages/
-/OnDraw.Droid/Resources/Resource.Designer.cs
+/OnDraw.Mobile/OnDraw.Droid/Components/
+/OnDraw.Mobile/OnDraw.Droid/packages/
+/OnDraw.Mobile/OnDraw.Droid/Resources/Resource.Designer.cs
 
 
 ## Ignore Visual Studio temporary files, build results, and

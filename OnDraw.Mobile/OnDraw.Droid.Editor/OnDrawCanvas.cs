@@ -4,8 +4,6 @@ using Android.Views;
 using OnDraw.Droid.Tools.Brushes.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Android.Graphics;
 
 namespace OnDraw.Droid.Editor
